@@ -9,11 +9,12 @@ const textSizeParagraph: Record<ParagraphSize, string> = {
 
 export type ParagraphProps = {
       text: string,
+      uppercase?: boolean
       textSize: ParagraphSize
 }
 
-export default function Paragraph( {text, textSize}: ParagraphProps ){
-      return(
-            <p className={` font-inter text-grayText ${ textSizeParagraph[textSize] } `}> {text} </p>
+export default function Paragraph({ text, textSize, uppercase }: ParagraphProps) {
+      return (
+            <p className={` font-inter text-grayText ${textSizeParagraph[textSize]} ${uppercase ? 'uppercase' : ''} `}> {text} </p>
       )
 }
