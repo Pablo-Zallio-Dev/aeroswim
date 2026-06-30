@@ -1,8 +1,10 @@
+import Logo from "./components/common/layout/Logo";
 
 export default function Home() {
   return (
-      <section className="">
-            <p className="">Pagina de inicio</p>
+      <section className=" p-10 ">
+             <Logo  />
+                 <Logo light />
       </section>
   )
 }
