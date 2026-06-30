@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${jetBrinsMono.variable} ${inter.variable} h-full antialiased`}
+      className={`${jetBrinsMono.variable} ${inter.variable} bg-background text-whiteText p-10 h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <Header />

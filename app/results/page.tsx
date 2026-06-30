@@ -1,9 +1,11 @@
+import Logo from "../components/common/layout/Logo";
 
 
 export default function Results() {
       return (
-            <section className=" bg-background text-whiteText p-10 ">
-                 
+            <section className=" py-12 ">
+                 <Logo light />
+                 <Logo  />
             </section>
       )
 }
