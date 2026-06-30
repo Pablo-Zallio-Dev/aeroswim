@@ -2,7 +2,7 @@
 
 export default function Home() {
       return (
-            <section className=" p-10 ">
+            <section className="">
               
             </section>
       )
