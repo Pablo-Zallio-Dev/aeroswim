@@ -2,6 +2,7 @@ import BtnHeader from "./components/common/header/components/BtnHeader";
 import Badge from "./components/common/layout/Badge";
 import BtnAccent from "./components/common/layout/BtnAccent";
 import Logo from "./components/common/layout/Logo";
+import Paragraph from "./components/common/layout/Paragraph";
 
 export default function Home() {
       return (
@@ -26,6 +27,9 @@ export default function Home() {
                   </section>
                         <BtnAccent accent text='Enviar solicitud' link='/contact' />
              
+            <Paragraph  text='Texto el parrafo' textSize={"small"} />
+            <Paragraph  text='Texto el parrafo' textSize={"medium"} />
+            <Paragraph  text='Texto el parrafo' textSize={"large"} />
 
             </section>
       )

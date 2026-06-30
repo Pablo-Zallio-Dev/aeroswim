@@ -8,7 +8,7 @@
   --accent: #2DD4BF;
   --border: #2b3545;
   --darkText: #020617;
-  --grayText: #64748B;
+  --grayText: #778aa4;
   --whiteText: #F8FAFC;
 }
 
@@ -24,6 +24,7 @@
   --color-accent: var(--accent);
   --color-borders: var(--border);
 
+  
   --color-darkText: var(--darkText);
   --color-grayText: var(--grayText);
   --color-whiteText: var(--whiteText);
