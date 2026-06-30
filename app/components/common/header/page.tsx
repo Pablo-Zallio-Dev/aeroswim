@@ -1,8 +1,7 @@
-import BtnNav from "./components/BtnNav"
 
 export default function Header() {
 
-      const links = [
+  /*     const links = [
                   {
                         number: '[ 01 ]',
                         text: 'inicio',
@@ -13,17 +12,28 @@ export default function Header() {
                         text: 'el club',
                         link: '/club'
                   }
-            ]
+            ] */
       
 
             
   return (
       <section className="">
-            {
+           
+      </section>
+  )
+}
+
+
+
+/* 
+
+
+ {
                         links.map((link) => (
                               <BtnNav key={link.text} number={link.number} text={link.text} link={link.link} />
                         ))
                   }
-      </section>
-  )
-}
+                        
+                  
+                  
+                  */
