@@ -1,4 +1,8 @@
 
 export default function Home() {
-  return 
+  return (
+      <section className="">
+            <p className="">Pagina de inicio</p>
+      </section>
+  )
 }
