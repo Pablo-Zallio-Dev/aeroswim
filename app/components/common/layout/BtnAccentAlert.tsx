@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function BtnPrimary({
+export default function BtnAccentAlert({
   text,
   link,
 }: {
@@ -10,12 +10,14 @@ export default function BtnPrimary({
   return (
     <Link
       href={link}
-      className=" w-full min-w-max
+      className=" 
+                  w-full min-w-max
                   py-2 px-4 
                   border border-borders 
+                  bg-accentAlert
                   uppercase italic font-inter font-black 
                   text-xs tracking-tighter text-center
-                  hover:border-accent hover:text-accent
+                  hover:bg-accentAlert/90
                   transition-colors duration-150 "
     >
       {text}
