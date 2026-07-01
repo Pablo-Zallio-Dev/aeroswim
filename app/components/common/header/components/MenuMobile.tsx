@@ -45,6 +45,7 @@ export default function MenuMobile() {
             border-b border-borders lg:border-none
             bg-background
             lg:opacity-100    
+            translate-x-0
             ${
               isOpen
                 ? " translate-x-0 opacity-100 "
