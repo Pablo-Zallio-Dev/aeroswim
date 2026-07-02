@@ -1,4 +1,3 @@
-import Badge from "../layout/Badge";
 import BadgeTitle from "../layout/BadgeTitle";
 import Logo from "../layout/Logo";
 import FlexLinksFooter from "./components/FlexLinksFooter";
