@@ -1,9 +1,10 @@
+import ModulsClub from "./components/ModulsClub";
 
 
 export default function Club() {
   return (
-      <section className="">
-            <p className="">Pagina de el club</p>
+      <section className=" w-full m-auto pt-30 px-6 2xl:px-0  max-w-7xl ">
+            <ModulsClub />
       </section>
   )
 }
