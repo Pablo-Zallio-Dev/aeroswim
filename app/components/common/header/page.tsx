@@ -10,14 +10,16 @@ export default function Header() {
             fixed top-0 left-0 z-200
            flex justify-center
             w-full
-            p-6 xl:px-20 2xl:px-70
+            py-6 px-6 2xl:px-0 
+            border-b border-borders
             bg-background
-            border-b border-borders "
+            lg:bg-background/50
+            lg:backdrop-blur-3xl "
       >
         <section
           className="  
                         flex justify-between items-center lg:justify-between 
-                        w-full
+                        w-full  max-w-7xl
                         
                         "
         >
@@ -31,3 +33,6 @@ export default function Header() {
     </>
   );
 }
+
+
+/* p-6 xl:px-20 2xl:px-50 3xl:px-90 */

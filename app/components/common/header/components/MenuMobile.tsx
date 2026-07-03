@@ -43,13 +43,14 @@ export default function MenuMobile() {
             w-full
             p-6 lg:p-0 
             border-b border-borders lg:border-none
-            bg-background
+            bg-background lg:bg-transparent
+            lg:visible
             lg:opacity-100    
             translate-x-0
             ${
               isOpen
                 ? " translate-x-0 opacity-100 "
-                : " -translate-x-full  opacity-0  "
+                : " -translate-x-full  opacity-0 invisible  "
             }
             transition-all duration-250
             `}

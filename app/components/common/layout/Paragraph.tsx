@@ -4,7 +4,7 @@ export type ParagraphSize = 'small' | 'medium' | 'large'
 const textSizeParagraph: Record<ParagraphSize, string> = {
       small: ' text-xs ',
       medium: ' text-base ',
-      large: ' text-base sm:text-lg '
+      large: ' text-base sm:text-xl '
 }
 
 export type ParagraphProps = {
