@@ -4,7 +4,7 @@ export type TitlesSize = 'small' | 'medium' | 'large'
 const textSizeTitles: Record<TitlesSize, string> = {
       small: 'text-xl ',
       medium: 'text-base',
-      large: 'text-3xl sm:text-6xl '
+      large: 'text-4xl sm:text-5xl '
 }
 
 export type TitlesProps = {

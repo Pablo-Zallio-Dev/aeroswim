@@ -1,12 +1,11 @@
-import Badge from "../layout/Badge";
 import BadgeTitle from "../layout/BadgeTitle";
 import Logo from "../layout/Logo";
 import FlexLinksFooter from "./components/FlexLinksFooter";
 
 export default function Footer() {
       return (
-            <section className=" border-t border-borders ">
-                  <section className=" py-12 px-6 xl:px-20 2xl:px-70  "  >
+            <section className=" flex justify-center  border-t border-borders  ">
+                  <section className=" py-12 px-6 2xl:px-0  w-full max-w-7xl "  >
                         <section className="flex flex-col md:flex-row gap-12 justify-between">
                               <section className="">
                                     <Logo light />

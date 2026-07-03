@@ -2,6 +2,7 @@
 
 :root {
   --background: #020617;
+  --backgroundSecondary: #0B1220;
   --backgroundLightGray: #10192b;
 
   --accentAlert: #FB7185;
@@ -18,6 +19,7 @@
   *** COLORES ***
   **************/
   --color-background: var(--background);
+  --color-backgroundSecondary: var(--backgroundSecondary);
   --color-backgroundLightGray: var( --backgroundLightGray);
 
   --color-accentAlert: var(--accentAlert);
@@ -37,6 +39,8 @@
   **************/
   --font-jetBrainsMono: var(--font-jetBrainsMono);
   --font-inter: var(--font-inter);
+
+
 }
 
 
