@@ -8,7 +8,7 @@ const textSizeParagraph: Record<ParagraphSize, string> = {
 }
 
 export type ParagraphProps = {
-      text?: string,
+      text: string,
       uppercase?: boolean
       textSize: ParagraphSize
 }
