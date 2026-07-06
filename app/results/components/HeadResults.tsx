@@ -4,7 +4,7 @@ import Titles from "@/app/components/common/layout/Titles";
 
 export default function HeadResults(){
       return(
-            <section className=" flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4 ">
+            <section className=" flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4 mb-12 ">
                   <section className=" flex flex-col gap-4 ">
                         <SubtitlePage text={"[ DATA_LOG: RESULTADOS ]"} />
                         <Titles text={"marcas y medallas"} titleSize={"large"} />
