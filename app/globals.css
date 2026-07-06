@@ -3,6 +3,7 @@
 :root {
   --background: #020617;
   --backgroundSecondary: #0B1220;
+  --backgroundGrayDark: #0F172A;
   --backgroundLightGray: #10192b;
 
   --accentAlert: #FB7185;
@@ -20,6 +21,7 @@
   **************/
   --color-background: var(--background);
   --color-backgroundSecondary: var(--backgroundSecondary);
+  --color-backgroundGrayDark: var(--backgroundGrayDark);
   --color-backgroundLightGray: var( --backgroundLightGray);
 
   --color-accentAlert: var(--accentAlert);
