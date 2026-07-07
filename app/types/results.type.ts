@@ -1,5 +1,6 @@
 
 export type Results = {
+      id: string,
       fecha: string,
       temporada: string,
       titulo: string,

@@ -1,11 +1,17 @@
 import { create } from "zustand";
 
 type CategoryFilterState = {
-  selected: string;
-  setSelected: (category: string) => void;
+
+  selectedCategory: string;
+  setSelectedCategory: (category: string) => void;
+  selectedSeason: string;
+  setSelectedSeason: (season: string) => void;
 };
 
 export const useCategoryFilterStore = create<CategoryFilterState>((set) => ({
-  selected: "todas",
-  setSelected: (category) => set({ selected: category }),
+      
+  selectedCategory: "todas",
+  setSelectedCategory: (category) => set({ selectedCategory: category }),
+   selectedSeason: "todas",
+  setSelectedSeason: (season) => set({ selectedSeason: season }),
 }));

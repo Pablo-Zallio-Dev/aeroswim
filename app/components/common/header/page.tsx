@@ -19,7 +19,7 @@ export default function Header() {
         <section
           className="  
                         flex justify-between items-center lg:justify-between 
-                        w-full  max-w-7xl
+                        w-full  max-w-350
                         
                         "
         >

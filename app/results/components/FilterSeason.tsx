@@ -6,20 +6,20 @@ import { useCategoryFilterStore } from "@/app/store/filterResults.store";
 
 export default function FilterSeason(){
 
-        const selected = useCategoryFilterStore((state) => state.selected)
-        const setSelected = useCategoryFilterStore((state) => state.setSelected)
+        const selectedSeason = useCategoryFilterStore((state) => state.selectedSeason)
+        const setSelectedSeason = useCategoryFilterStore((state) => state.setSelectedSeason)
       
        return (
-          <section className="">
+          <section className="flex flex-col items-center sm:items-start ">
             <BadgeTitle text={"Temporada"} />
             <section className="pt-2">
-              <section className=" flex flex-wrap gap-2 ">
+              <section className=" flex flex-wrap justify-center items-center gap-2 ">
                 {BtnSeason.map((cat) => (
                   <BtnFilter
                     key={cat}
                     title={cat}
-                    isActive={cat === selected}
-                    onSelect={() => setSelected(cat)}
+                    isActive={cat === selectedSeason}
+                    onSelect={() => setSelectedSeason(cat)}
                   />
                 ))}
               </section>

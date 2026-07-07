@@ -3,6 +3,7 @@ import { Results } from "../types/results.type";
 
 export const resultsData: Results[] = [
       {
+            "id": "001" ,
             "fecha": "2026-05-18",
             "temporada": "2025/26",
             "titulo": "Open Internacional de Madrid",
@@ -14,17 +15,19 @@ export const resultsData: Results[] = [
             ]
       },
       {
+            "id": "002" ,
             "fecha": "2026-04-02",
             "temporada": "2025/26",
             "titulo": "Copa Nórdica Aeroswim",
             "lugar": "Oslo, NO",
-            "categoria": "Adulto Pro",
+            "categoria": "Adulto pro",
             "logros": [
                   "1° Equipo 4×200m",
                   "PB: A. Ruiz 1:58.4"
             ]
       },
       {
+            "id": "003" ,
             "fecha": "2026-02-22",
             "temporada": "2025/26",
             "titulo": "Liga Regional — J3",
@@ -36,6 +39,7 @@ export const resultsData: Results[] = [
             ]
       },
       {
+            "id": "004" ,
             "fecha": "2025-11-09",
             "temporada": "2025/26",
             "titulo": "Trofeo Invierno",
@@ -47,6 +51,7 @@ export const resultsData: Results[] = [
             ]
       },
       {
+            "id": "005" ,
             "fecha": "2025-06-14",
             "temporada": "2024/25",
             "titulo": "Campeonato Nacional Absoluto",
@@ -58,6 +63,7 @@ export const resultsData: Results[] = [
             ]
       },
       {
+            "id": "006" ,
             "fecha": "2025-03-30",
             "temporada": "2024/25",
             "titulo": "Meeting Juvenil Europeo",
@@ -67,8 +73,20 @@ export const resultsData: Results[] = [
                   "Bronce 200m libre",
                   "Mínima absoluta"
             ]
+      },
+      {
+            "id": "007" ,
+            "fecha": "2026-02-22",
+            "temporada": "2025/26",
+            "titulo": "Liga Regional — J3",
+            "lugar": "Valencia, ES",
+            "categoria": "Infantil",
+            "logros": [
+                  "4× Plata espalda",
+                  "Clasificación mundial"
+            ]
       }
 ]
 
-export const BtnCategory = [ 'todas', 'infantil', 'adult pro', 'master' ]
+export const BtnCategory = [ 'todas', 'infantil', 'adulto pro', 'master' ]
 export const BtnSeason = [ 'todas', '2024/25', '2025/26' ]
