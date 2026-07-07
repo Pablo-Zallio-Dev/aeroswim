@@ -51,7 +51,7 @@ export default function Timetables() {
       return (
             <section className=" bg-backgroundSecondary ">
 
-            <section className=" flex flex-col items-center w-full m-auto px-6 2xl:px-0  max-w-7xl  ">
+            <section className=" flex flex-col items-center w-full m-auto px-6 2xl:px-0  max-w-350  ">
                   <section className=" w-full mt-30 lg:mt-50 ">
                         <Titles text={"horarios de sesiòn"} titleSize={"large"} />
                         <TableMobile table={timeTable} />
