@@ -9,7 +9,7 @@ export default function Header() {
         className=" 
             fixed top-0 left-0 z-200
            flex justify-center
-            w-full
+            w-full 
             py-6 px-6 2xl:px-0 
             border-b border-borders
             bg-background
@@ -19,7 +19,7 @@ export default function Header() {
         <section
           className="  
                         flex justify-between items-center lg:justify-between 
-                        w-full  max-w-7xl
+                        w-full  max-w-350
                         
                         "
         >
