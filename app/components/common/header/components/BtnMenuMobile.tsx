@@ -15,6 +15,7 @@ export default function BtnMobileMenu() {
       border border-borders
       "
       onClick={btnToggle}
+      aria-label="Boton para menu movil"
     >
       <div
         className={` w-4 h-px border border-whiteText ${isOpen ? " rotate-45 translate-y-1 " : " "} transition-all duration-150 `}

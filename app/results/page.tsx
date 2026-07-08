@@ -1,7 +1,13 @@
 import FilterBtns from "./components/FilterBtns";
 import HeadResults from "./components/HeadResults";
 import GalleryResults from "./components/GalleyResults";
+import { Metadata } from "next";
 
+
+export const metadata: Metadata = {
+  title: "Aeroswim - Resultados",
+  description: "Pagina con los resultados de las competencia",
+};
 
 export default function Results() {
 

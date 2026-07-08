@@ -6,7 +6,8 @@
   --backgroundGrayDark: #0F172A;
   --backgroundLightGray: #10192b;
 
-  --accentAlert: #FB7185;
+  --accentAlert: #eb697c;
+  --accentAlertBtn: #9b3c4a;
   --accent: #2DD4BF;
   --border: #2b3545;
   --darkText: #020617;
@@ -25,6 +26,7 @@
   --color-backgroundLightGray: var( --backgroundLightGray);
 
   --color-accentAlert: var(--accentAlert);
+  --color-accentAlertBtn: var(--accentAlertBtn);
   --color-accent: var(--accent);
   --color-borders: var(--border);
 
