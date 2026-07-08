@@ -1,8 +1,13 @@
+import { Metadata } from "next";
 import Titles from "../components/common/layout/Titles";
 import { TimeTable } from "../types/timetable.type";
 import TableDesktop from "./components/TableDesktop";
 import TableMobile from "./components/TableMobile";
 
+export const metadata: Metadata = {
+  title: "Aeroswim - Horarios",
+  description: "Pagina de horarios",
+};
 
 export default function Timetables() {
 

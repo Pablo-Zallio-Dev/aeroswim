@@ -3,7 +3,12 @@ import Paragraph from "../components/common/layout/Paragraph";
 import SubtitlePage from "../components/common/layout/SubtitlePage";
 import Titles from "../components/common/layout/Titles";
 import FormLogin from "./components/FormLogin";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Aeroswim - Login",
+  description: "Pagina usuarios registrados",
+};
 
 export default function Login() {
 

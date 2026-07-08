@@ -1,6 +1,11 @@
+import { Metadata } from "next";
 import FormContact from "./components/FormContact";
 import InfoContact from "./components/InfoContact";
 
+export const metadata: Metadata = {
+  title: "Aeroswim - Contacto",
+  description: "Pagina formulario de contacto",
+};
 
 export default function Contact() {
   return (
