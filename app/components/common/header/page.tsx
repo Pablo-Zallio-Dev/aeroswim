@@ -10,7 +10,7 @@ export default function Header() {
             fixed top-0 left-0 z-200
            flex justify-center
             w-full 
-            py-6 px-6 2xl:px-0 
+            py-6 px-6 
             border-b border-borders
             bg-background
             lg:bg-background/50
@@ -20,7 +20,7 @@ export default function Header() {
           className="  
                         flex justify-between items-center lg:justify-between 
                         w-full  max-w-350
-                        
+                        px-6
                         "
         >
           <Logo />
@@ -33,6 +33,5 @@ export default function Header() {
     </>
   );
 }
-
 
 /* p-6 xl:px-20 2xl:px-50 3xl:px-90 */
