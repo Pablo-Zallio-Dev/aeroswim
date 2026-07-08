@@ -57,8 +57,8 @@ export default function FormLogin() {
 
                                     <section className=" flex justify-between ">
                                           <div className=" flex items-center gap-2 ">
-                                                <input type="checkbox" name="" id="" />
-                                                <label htmlFor="" className=" uppercase text-[10px] tracking-wide font-jetBrainsMono text-grayText " >recuérdame</label>
+                                                <input type="checkbox" name="" id="remember" />
+                                                <label htmlFor="remember" className=" uppercase text-[10px] tracking-wide font-jetBrainsMono text-grayText " >recuérdame</label>
                                           </div>
                                           <Link href={"/"} className=" text-[10px] uppercase font-jetBrainsMono text-accent " >olvidé mi contraseña</Link>
                                     </section>

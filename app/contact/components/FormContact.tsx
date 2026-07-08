@@ -21,7 +21,7 @@ export default function FormContact() {
             <section className=" w-full max-w-150 bg-backgroundSecondary p-8 border border-borders ">
                   <form onSubmit={handleSubmit(onSubmit)} className=" flex flex-col gap-6 ">
                         <div className=" relative flex flex-col gap-2 ">
-                              <label htmlFor="">
+                              <label htmlFor="name">
                                     <BadgeTitle text={"Nombre completo*"} />
                               </label>
                               <input
@@ -44,7 +44,7 @@ export default function FormContact() {
                               <FormError error={errors.name?.message?.toString() ?? ''} />
                         </div>
                         <div className=" relative flex flex-col gap-2 ">
-                              <label htmlFor="">
+                              <label htmlFor="email">
                                     <BadgeTitle text={"email*"} />
                               </label>
                               <input
@@ -63,7 +63,7 @@ export default function FormContact() {
 
                         </div>
                         <div className=" flex flex-col gap-2 ">
-                              <label htmlFor="">
+                              <label htmlFor="telefono">
                                     <BadgeTitle text={"telefono"} />
                               </label>
                               <input
