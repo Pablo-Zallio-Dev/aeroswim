@@ -8,7 +8,7 @@ export default function AccessHome(){
                   <Titles text={"listo para sumergirte"} titleSize={"large"} />
                   <section className=" flex flex-col xl:flex-row  items-start  gap-4 ">
                         <BtnAccent accent text={"solicita acceso"} link={"/contact"} />
-                        <BtnPrimary text={"soy socio"} link={""} large />
+                        <BtnPrimary text={"soy socio"} link={"/login"} large />
                   </section>
             </section>
       )
