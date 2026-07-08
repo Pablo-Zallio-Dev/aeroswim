@@ -65,7 +65,7 @@ export default function MenuMobile() {
       ))}
 
       <section className=" flex gap-4 xl:pl-8 ">
-        <BtnPrimary link={"/"} text={"iniciar sesión"} />
+        <BtnPrimary link={"/login"} text={"iniciar sesión"} />
         <BtnAccentAlert text={"unete"} link={"/contact"} />
       </section>
     </section>

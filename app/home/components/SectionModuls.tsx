@@ -22,7 +22,7 @@ export default function SectionModuls() {
                   date: '02/03',
                   title: 'horarios',
                   text: 'Sesiones por categoría y cupo en tiempo real.',
-                  link: '/timertable'
+                  link: '/timetables'
             },
             {
                   image: imageCoach,

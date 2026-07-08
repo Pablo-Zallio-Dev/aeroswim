@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-export default function LinksFooter( {text, link}: {text: string, link: string} ){
+export default function LinksFooter( {text, link, target}: {text: string, link: string, target?: string} ){
       return(
-            <Link href={link} className=" uppercase text-xs hover:text-accent "> {text} </Link>
+            <Link href={link} className=" uppercase text-xs hover:text-accent " target={target} > {text} </Link>
       )
 }
